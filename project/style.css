@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Now Text",
+        "Lucida Sans",
+        Tahoma,
+        sans-serif;
+    ;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.nav {
+
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.nav .nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.links {
+    padding: 10px;
+}
+
+.nav-part2 .links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.icons {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #F7F7F7;
+}
+
+.nav-part2 .icons i {
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: 100;
+}
+
+.cursor {
+    height: 170px;
+    width: 170px;
+    background-color: rgb(200, 199, 197);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+#page1 {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 0 2vw;
+    padding-top: 19vh;
+}
+
+#page1 h1 {
+    font-size: 15.4vw;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 12vw;
+    letter-spacing: -8px;
+
+
+}
+
+#video-container {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    margin-top: 1vw;
+    position: relative;
+}
+
+#video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#video-container #play {
+    padding: 3vw 2.2vw;
+    background-color: black;
+    color: #fff;
+    font-size: 1.5vw;
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+}
+
+/*page 2*/
+#page2 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3vw 2vw;
+    justify-content: space-between;
+}
+
+#page2 .elem {
+    height: 100%;
+    width: 31%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page2 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.2;
+
+}
+
+#page2 .elem .dets {
+    background-color: #ded0b5;
+    padding: 0 32px;
+    height: 50px;
+    border-radius: 25px;
+    width: 303px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    line-height: .9em;
+    z-index: 2;
+
+}
+
+#page3 {
+    min-height: 120vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.child {
+    height: 55vh;
+    width: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.child img {
+    height: 100%;
+}
+
+#page4 {
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3vw 2vw;
+    justify-content: space-between;
+}
+
+#cont1 {
+    font-size: 2.4vw;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 4.8vw;
+    letter-spacing: -7px;
+}
+
+#page4 p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+}
+
+#page5 {
+    padding: 3vw 2vw;
+}
+
+#page5 .message {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 26px;
+    padding: 40px;
+}
+
+#page5 h1 {
+    font-size: 60px;
+    padding: 30px 65px;
+    text-align: center;
+    letter-spacing: -6px;
+}
+
+#page5 .messagebox {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 303px;
+    border-radius: 50px;
+    margin: 0 40%;
+    cursor: pointer;
+}
+
+#page5 p {
+    text-align: center;
+    padding: 20px;
+}
+
+#page6 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 3vw 2vw;
+    justify-content: space-between;
+}
+
+#page6 .impact {
+    height: 100%;
+    width: 30%;
+}
+
+.impact1 h1 {
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.impact1 p {
+    padding-bottom: 30px;
+    padding-right: 80px;
+}
+
+.impact2 {
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+.search {
+    display: flex;
+    padding: 3vw 2vw;
+    width: 100%;
+}
+
+.search input {
+    background: #ffffff;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    border: none;
+    width: 95%;
+    height: 50px;
+    color: black;
+    text-transform: uppercase;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    box-shadow: 0 2px rgb(141, 141, 146);
+
+}
+
+.search input::placeholder {
+    text-transform: capitalize;
+    color: #000;
+    margin-right: 16px;
+}
+
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px rgb(141, 141, 146);
+}
+
+.search button i {
+    font-size: 30px;
+}
+
+.footer {
+    padding: 8vw 2.3vw;
+    width: 100%;
+}
+
+#footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer1 .min-footers h1 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #676565;
+    letter-spacing: -1px;
+}
+
+#footer1 .min-footers p {
+    font-size: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+
+#footer1 .min-footers p:hover {
+    color: #595959;
+
+}
+
+#footer1 #footer-part p {
+    text-align: right;
+}
+
+#footer2 {
+    padding: 2vw 32vw;
+    color: #595959;
+    gap: 40px;
+    font-size: 14px;
+}
+
+#footer2 {
+    display: flex;
+}
+
+#footer3 {
+    text-align: center;
+    padding: 6vw 18vw;
+    font-size: 16px;
+    line-height: 1.5vw;
+}
+
+
+@media (max-width:600px) {
+    #page1 {
+        min-height: 70vh;
+        width: 100%;
+        padding: 0 3vw;
+        padding-top: 25vh;
+    }
+
+    #page1 h1 {
+        font-size: 15.5vw;
+        letter-spacing: -3px;
+    }
+
+    #video-container {
+        height: 25vh;
+        margin-top: 3vw;
+
+    }
+
+    #video-container #play {
+        padding: 7.5vw 5.2vw;
+        font-size: 4vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        scale: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    #page2 {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vw 3vw;
+        justify-content: space-between;
+    }
+
+    #page2 .elem {
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 3vw;
+    }
+
+    #page2 .elem .dets {
+        height: 40px;
+        border-radius: 50px;
+        width: 70%;
+        position: absolute;
+        z-index: 9;
+        background-color: palegoldenrod;
+    }
+
+}
