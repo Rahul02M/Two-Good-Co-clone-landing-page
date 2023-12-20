@@ -13,7 +13,6 @@ This website recognized on Awwwards, a prestigious platform for design excellenc
 <br>
 ![phone](https://github.com/Rahul02M/Two-Good-Co-clone-landing-page/assets/133855195/93b5fa10-5157-4ad9-b058-3586a9cd2a90) 
 <br>
-<br>
 ![phone2](https://github.com/Rahul02M/Two-Good-Co-clone-landing-page/assets/133855195/7b458ab0-6eac-461f-8144-9720737b21b1)
 
 
